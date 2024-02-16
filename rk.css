@@ -1,0 +1,167 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+  height: 100vh;
+}
+
+header{
+  background-color: rgb(46, 45, 45);
+  color:bisque;
+  
+}
+
+header h1{
+  text-align:center;
+  margin:0;
+  padding: 20px;
+  
+}
+
+.game{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont h2
+{ 
+  text-align: center;
+   visibility: hidden; 
+}
+
+.game .r img{
+width: 10vw;
+height: 10vw;
+/* padding: 25px; */
+
+}
+
+.game .r{
+padding: 25px;
+}
+
+
+.game .r img{
+  border-radius: 100px;
+ 
+}
+
+.score
+{
+  display: flex;
+  justify-content: center;
+gap:20px;
+}
+
+.score h2{
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 15px;
+}
+
+.score p{
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+
+button{
+padding: 10px 20px;
+font-size: 1.3rem;
+border-radius: 10px;
+border: none;
+background-color:green;
+color: bisque;
+}
+
+.but{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+.but1 button {
+  padding: 10px 20px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: none;
+  background-color:red;
+  color: bisque;
+  
+  }
+  
+  .but1{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 40px;
+    margin-top: 33px;
+  }
+
+
+
+
+button:active{
+  background-color:white;
+}
+
+img:active {
+  border:2px solid white;
+  
+}
+
+
+@media(max-width:600px)
+{  
+  .game .r img{
+    width: 21vw;
+    height: 21vw;
+    padding: 20px;
+  }
+  
+  .score h2{
+    margin-top: 0px;
+  }
+
+  
+}
+
+@media(min-width:600px) and (max-width:800px) {
+ 
+  
+  .game .r img{
+    width: 19vw;
+    height: 19vw;
+    padding: 23px;
+  }
+  
+
+  
+  .score h2{
+    margin-top: 0px;
+  }
+  
+  
+}
+
+@media(min-width:800px) and (max-width:1000px) {
+ 
+  
+  .game .r img{
+    width: 15vw;
+    height: 15vw;
+    padding: 18px;
+  }
+  
+
+  
+  .score h2{
+    margin-top: 0px;
+  }
+  
+  
+}
